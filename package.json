@@ -1,0 +1,22 @@
+{
+  "name": "lucky-theme",
+  "displayName": "Lucky Theme",
+  "description": "Sometimes programmers just need a little luck!",
+  "repository": "https://github.com/AylaCodes/lucky-theme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lucky Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lucky Theme-color-theme.json"
+      }
+    ]
+  }
+}
